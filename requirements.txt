@@ -1,0 +1,12 @@
+pinecone
+langchain
+transformers
+numpy
+pypdf
+huggingface_hub
+gensim
+pinecone-client
+streamlit
+sentence-transformers
+python-dotenv
+langchain_pinecone
