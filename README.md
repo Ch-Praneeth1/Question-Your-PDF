@@ -31,7 +31,7 @@ Transformers (for Meta-Llama-3-8B-Instruct)
 ## **Installation**
 Clone the repository:
 
-git clone https://github.com/Ch-Praneeth1/PDF-based-Question-Answering-System.git
+git clone https://github.com/Ch-Praneeth1/Question-Your-PDF.git
 
 
 ## **Install the dependencies:**
