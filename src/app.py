@@ -34,4 +34,4 @@ if uploaded_file is not None:
             if isinstance(message,AIMessage):
 
                 with st.chat_message("AI"):
-                    st.write(message.content)
+                    st.write_stream(message.content)
