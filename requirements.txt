@@ -10,5 +10,5 @@ streamlit
 sentence-transformers
 python-dotenv
 PyPDF2
-langchain_pinecone
+langchain-pinecone
 langchain-community
