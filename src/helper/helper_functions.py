@@ -2,8 +2,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
 from langchain.vectorstores import Pinecone
 
-from pinecone import Pinecone
-from langchain_pinecone.vectorstores import PineconeVectorStore
+from langchain_pinecone.vectorstores import Pinecone
 from langchain.chains import RetrievalQA
 import os
 from langchain.llms import huggingface_hub
@@ -42,7 +41,7 @@ embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L
 
 
 def doc_search_fun(text_chuncks):
-    doc_search = PineconeVectorStore.from_texts(text_chuncks,embedding=embedding,index_name="test-index")
+    doc_search = Pinecone.from_texts(text_chuncks,embedding=embedding,index_name="test-index")
     return doc_search
 
 def agent_fun(doc_search):
