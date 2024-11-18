@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 from langchain.vectorstores import Pinecone
 
 from pinecone import Pinecone
-from langchain_pinecone import PineconeVectorStore
+from langchain_pinecone.vectorstores import PineconeVectorStore
 from langchain.chains import RetrievalQA
 import os
 from langchain.llms import huggingface_hub
